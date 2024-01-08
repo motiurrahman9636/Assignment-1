@@ -1,0 +1,242 @@
+
+body{
+    font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif;
+}
+
+.common-color{
+    color: #F00;
+}
+
+.hny{
+    color: #FFF;
+
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    text-align: center;
+    padding: 177px 530px 0px 530px;
+}
+
+.hny2{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    display: block;
+    margin-top: 0px;
+    padding-left: 340px;
+    padding-right: 340px; 
+}
+
+
+
+.new-year{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0,0,0,0)),
+    url('resources/Banner\ Image.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5% 15%;
+    border-radius: 16px;
+}
+
+
+/* heading discount */
+
+.discount{
+    justify-content: center;
+    display: flex;
+}
+
+.discount-title{
+    text-align: center;
+    font-family: Inter;
+    font-size: 90px;
+
+    
+}
+
+.discount-cate{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    padding-top: 0%;
+}
+
+.discount-des{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 0px;
+}
+
+.discount .profile{
+    display: block;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+/* party section */
+.main-2part {
+    display: flex;
+  }
+  .main-offer {
+    text-align: center;
+  }
+  .main-off {
+    font-family: "Inter", sans-serif;
+    color: #f00;
+    font-size: 88px;
+    padding-top: 40px;
+  }
+  .main-beter {
+    color: #f00;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .main-categories {
+    padding-bottom: 20px;
+    color: #070211;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+  }
+  
+  .main-bg2 {
+    border-radius: 16px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  }
+  .main-2part {
+    border-radius: 16px;
+    margin: 80px 0px;
+    background-image: url("resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    width: 100%;
+    
+  }
+  .main-wlc {
+    color: #fff;
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    padding: 12px 100px;
+    margin-top: 100px;
+  }
+  
+  .main-invit {
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    line-height: 30px;
+    padding: 5px 100px;
+  }
+  .rigght {
+    justify-content: center;
+    display: flex;
+    padding-right: 80px;
+    margin: 60px 0px;
+  }
+  
+  .join-now {
+    border-radius: 5px;
+    border: 0;
+    padding: 8px 15px;
+    margin: 15px 100px;
+    color: white;
+    background-color: red;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+  }
+
+  /* about section */
+  .about{
+    padding: 100px ;
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+    width: 1150px;
+    margin: 120px auto;
+    justify-content: center;
+  
+  }
+
+  span{
+    color: #F00;
+  }
+
+  /* bonus section */
+  .bonus{
+    display: flex;
+    padding-top: 80px;
+    margin: 100px 150px;
+    
+  }
+
+.left{
+  padding-left: 100px;
+  text-align: left;
+}
+
+  .best-offer{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+  }
+
+  .coming{
+
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-top: 0px;
+    padding-bottom: 22px;
+  }
+
+  .left-para{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    padding-right: 80px;
+  }
+
+  /* bonus pic */
+  .bonus-pic{
+    width: 400px;
+    margin-top: 5px;
+    border: 15px solid#F00 ;
+    padding: 15px;
+    border-radius: 100%;
+    display: flex;
+    
+
+  }
+
+  .a2024{
+    padding-left: 80px;
+
+  }
+
+  .a2024>h2{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  .bonus-pic-para{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+  }
+

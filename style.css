@@ -280,17 +280,17 @@ font-family: 'Merriweather', serif;
 
   /* holiday banner section */
   .holiday-banner{
-    align-items: center;
+    text-align: center;
     background-image: url(resources/Rectangle\ 2.png);
     background-repeat: no-repeat;
-    background-position: bottom left;
+    background-position: bottom center;
     padding-top: 200px;
     
   }
 
   .group-44{
     position:absolute;
-    left : 950px;
+    right: 600px;
     width: 230px;
 
     
@@ -298,23 +298,36 @@ font-family: 'Merriweather', serif;
 
   .group-75{
     position: absolute;
-    left: 250px;
-    width: 400px;
+    left: 400px;
+    width: 450px;
     display: inline;
   }
 
   .rect-1{
     position: relative;
-    left: 891px;
-    bottom: 225px;
-    
-    
+    left: 445px;
+    bottom: 175px;
+    padding-bottom: 50px;
   }
 
 
  
 
   /* gift section */
+
+  .gift{
+    padding-left: 100px;
+  }
+
+  .gift-para{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+
+
+
+  }
 
 
   

@@ -250,6 +250,7 @@ font-family: 'Merriweather', serif;
   }
 
   .holiday-title-1{
+    text-align: center;
     color: #070211;
     font-family: Inter;
     font-size: 24px;
@@ -257,6 +258,7 @@ font-family: 'Merriweather', serif;
   }
 
   .holiday-title{
+    text-align: center;
     font-family: Merriweather;
     font-size: 72px;
     font-style: normal;
@@ -267,6 +269,7 @@ font-family: 'Merriweather', serif;
   }
 
   .holiday-para{
+    text-align: center;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -275,34 +278,40 @@ font-family: 'Merriweather', serif;
   }
 
   /* holiday banner section */
-  .holiday-banner{
-    align-items: center;
-  }
 
   .group-44{
     position:absolute;
     left : 950px;
-    padding: 0px;
+
+    
   }
 
   .group-75{
     position: absolute;
     left: 250px;
-    width: 400px;
+    width: 400px
 
   }
 
   .rect-1{
     position: relative;
-    left: 910px;
-    top: 15px;
-    bottom: 400px;
+    left: 891px;
+    bottom: 200px;
+    
+    
   }
 
-  .rect-2{
-    position: relative;
-    left: 20px;
-    bottom: ;
+
+  .holiday-banner{
+    align-items: center;
+    background-image: url(resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    padding-top: 200px;
+    
   }
+
+  /* gift section */
+
 
   

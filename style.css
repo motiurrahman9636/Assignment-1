@@ -316,7 +316,8 @@ font-family: 'Merriweather', serif;
   /* gift section */
 
   .gift{
-    padding-left: 180px;
+    padding-top: 100px;
+    padding-left: 260px;
   }
 
   .gift-para{
@@ -328,4 +329,111 @@ font-family: 'Merriweather', serif;
 
   .image{
     padding: 5px;
+  }
+
+  .image:hover{
+    color:(red);
+  }
+
+  /* subscribe section */
+  .subscribe{
+    background-color: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    width: 1150px;
+    margin: 120px auto;
+    justify-content: center;
+    padding: 50px 70px;
+    text-align: center;
+  }
+
+  .plass{
+    padding: 10px 50px 10px 15px;
+    border-radius: 25px 0px 0px 25px;
+    border-right: 0px;
+  }
+
+  .sub-but{
+  
+    padding: 8px 10px 10px 0px;
+    color: white;
+    font-size: 15px;
+    background-color: #F00 ;
+    border-radius: 0px 25px 25px 0px;
+    border-left: 0px;
+    margin-left: auto;
+
+
+  }
+
+  .sub-img{
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+  }
+
+  .subscribe>h3{
+    color: #070211;
+
+    font-family: Merriweather;
+    font-size: 48px;
+  }
+
+  .subscribe>p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+
+  }
+
+  /* footer section */
+  footer {
+    background-color: black;
+  }
+  .footer-contact {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-adress {
+    padding-top: 80px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    margin: 0px auto;
+  }
+  .footer-cell {
+    cursor: pointer;
+    padding-top: 80px;
+    margin: auto;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    line-height: 40px; /* 166.667% */
+  }
+  
+  /* social-icon-add */
+  .social-icon-add {
+    display: flex;
+    justify-content: center;
+  }
+  .social-icons img {
+    cursor: pointer;
+    margin: 0px 6px;
+  }
+  .copyright1 {
+    color: #fff;
+    padding-bottom: 80px;
+    margin: auto;
+  }
+  .copyright2 {
+    color: #fff;
+    margin: auto;
+    padding-bottom: 100px;
+  }
+  
+  .hr {
+    width: 72%;
+    margin: 50px auto;
+    background-color: #000000;
   }
